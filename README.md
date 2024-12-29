@@ -1,12 +1,12 @@
 
-# Pillar Segmentation Project
+# Pillar Detection Project
 
 ## Overview
 This project is designed to detect pillars or columns in an image, segment them, and assign unique colors to each pillar. It also extracts and stores the boundaries of each pillar as a set of points in a JSON file.
 
 ## Directory Structure
 ```
-pillar-segmentation-project/
+pillar-segmentation/
 ├── data/                 # For storing input and output images
 │   ├── input/            # Input images go here
 │   ├── output/           # Processed images and JSON output
@@ -17,7 +17,6 @@ pillar-segmentation-project/
 │   ├── save_boundaries.py# For dumping boundary points into JSON
 ├── config.py             # Configuration settings
 ├── requirements.txt      # Required Python packages
-└── README.md             # Project overview and usage instructions
 ```
 
 ## Prerequisites
